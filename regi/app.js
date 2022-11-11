@@ -37,7 +37,7 @@ app.post('/sign_up', function(req,res){
    return res.redirect('./public/success.html');
 })
 
-app.get('/',function(req,res){
+app.get('http://localhost:3000/index.html',function(req,res){
    res.set({
       'Access-control-Allow-Origin': '*'
    });
